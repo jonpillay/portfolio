@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Sans+Pro:wght@300&family=Teko:wght@600&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#web-container {
+    min-width: 1450px;
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web-header {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.web-head {
+    max-width: 100%;
+    max-height: 340px;
+    border-radius: 15%;
+}
+
+.info-box {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 80px;
+}
+
+.info-rows {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 47px;
+    padding-top: 46px;
+    margin-left: -90px;
+    margin-bottom: -10px;
+    width: 300px;
+}
+
+.info-col {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.web-bio {
+    display: grid;
+    grid-template-rows: 30% 60%;
+    padding-left: 20px;
+}
+
+.name {
+    font-size: 88px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.landing-box {
+    padding-top: 10px;
+}
+
+.landing-text{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.header-skills {
+    display: block;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 18px;
+    padding-left: 15px;
+    width: 190px;
+}
+
+.skills-title {
+    display: block;
+    font-size: 50px;
+    color: red;
+    opacity: 85%;
+}
+
+.web-body {
+    height: 700px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.body-title {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.body-bio {
+    width: 500px;
+    line-height: 25px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.code-list {
+    list-style: none;
+    margin-left: -17%;
+    width: 600px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.code-listing {
+    display: block;
+}
+
+.code-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.code-listing {
+
+}
+
+.title-grid {
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.mugshot {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
