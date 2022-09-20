@@ -30,10 +30,9 @@
 
 .info-box {
     font-family: 'Teko', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     display: grid;
-    grid-template-columns: 55% 45%;
-    height: 80px;
+    grid-template-columns: 53% 47%;
 }
 
 .info-rows {
@@ -43,12 +42,17 @@
     padding-top: 46px;
     margin-left: -90px;
     margin-bottom: -10px;
-    width: 300px;
+    width: 600px;
+    line-height: 10px;
 }
 
 .info-col {
     display: grid;
     grid-template-columns: 40% 60%;
+}
+
+.location-text {
+    margin-top: 4px;
 }
 
 .web-bio {
@@ -106,10 +110,14 @@
     font-weight: 400;
 }
 
+.code-container {
+    margin-left: -17%;
+}
+
 .code-list {
     list-style: none;
-    margin-left: -17%;
     width: 600px;
+    margin-left: -4%;
 }
 
 li {
@@ -127,17 +135,9 @@ li {
     line-height: 25px;
 }
 
-.logo-div {
-    display: inline-block;
-}
-
-.git-logo {
+.git-icon {
     height: 20px;
     margin-bottom: -3px;
-}
-
-.code-listing {
-
 }
 
 .title-grid {
