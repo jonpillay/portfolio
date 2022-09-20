@@ -118,11 +118,22 @@ li {
 
 .code-listing {
     display: block;
+    line-height: 25px;
 }
 
 .code-title {
     font-size: 18px;
     font-weight: 900;
+    line-height: 25px;
+}
+
+.logo-div {
+    display: inline-block;
+}
+
+.git-logo {
+    height: 20px;
+    margin-bottom: -3px;
 }
 
 .code-listing {
