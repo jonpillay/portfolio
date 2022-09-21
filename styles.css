@@ -57,7 +57,7 @@
 
 .web-bio {
     display: grid;
-    grid-template-rows: 30% 60%;
+    grid-template-rows: 30% 40% 30%;
     padding-left: 20px;
 }
 
@@ -75,13 +75,20 @@
     margin-top: 20px;
 }
 
+.git-insta-link {
+    margin-left: 3px;
+    margin-top: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 33px;
+}
+
 .header-skills {
     display: block;
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 18px;
     padding-left: 15px;
-    width: 190px;
+    width: 225px;
 }
 
 .skills-title {
@@ -138,6 +145,15 @@ li {
 .git-icon {
     height: 20px;
     margin-bottom: -3px;
+}
+
+.icon-cont {
+    margin-left: -7px;
+}
+
+.header-icon {
+    height: 30px;
+    margin-top: 8px;
 }
 
 .title-grid {
