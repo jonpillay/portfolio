@@ -127,6 +127,12 @@
     margin-left: -4%;
 }
 
+#summary {
+    width: 70%;
+    font-size: 17px;
+    margin-top: -15px;
+}
+
 li {
     margin-bottom: 15px;
 }
