@@ -52,7 +52,7 @@
 }
 
 .location-text {
-    margin-top: 4px;
+    margin-top: 7px;
 }
 
 .web-bio {
@@ -117,39 +117,18 @@
     font-weight: 400;
 }
 
-.code-container {
-    margin-left: -17%;
+.pdf-icon {
+    height: 20px;
+    margin-bottom: -3px;
 }
 
-.code-list {
-    list-style: none;
-    width: 600px;
-    margin-left: -4%;
-}
-
-#summary {
-    width: 70%;
-    font-size: 17px;
-    margin-top: -15px;
-}
-
-li {
-    margin-bottom: 15px;
-}
-
-.code-listing {
-    display: block;
-    line-height: 25px;
-}
-
-.code-title {
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 25px;
+.github-icon {
+    height: 30px;
+    margin-top: -9px;
 }
 
 .git-icon {
-    height: 20px;
+    height: 17px;
     margin-bottom: -3px;
 }
 
@@ -180,4 +159,35 @@ li {
 .nav-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.code-container {
+    margin-left: -17%;
+}
+
+.code-list {
+    list-style: none;
+    width: 600px;
+    margin-left: -4%;
+}
+
+#summary {
+    width: 70%;
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.code-listing {
+    display: block;
+    line-height: 25px;
+}
+
+.code-title {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
 }
